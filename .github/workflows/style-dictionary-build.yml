@@ -4,5 +4,7 @@ jobs:
   echo:
     runs-on: ubuntu-latest
     steps:
+      - name: Link dependencies
+        run: yarn
       - name: build
         run: yarn build
