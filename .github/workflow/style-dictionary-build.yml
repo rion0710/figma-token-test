@@ -1,2 +1,9 @@
 name: style-dictionary-build
 on: push
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    uses: amzn/style-dictionary@3.7.1
+    steps:
+      style-dictionary build
