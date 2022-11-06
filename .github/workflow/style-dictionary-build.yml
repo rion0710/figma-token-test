@@ -1,2 +1,2 @@
 name: style-dictionary-build
-on: merge
+on: push
