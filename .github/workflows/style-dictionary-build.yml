@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: init
-      - uses: amzn/style-dictionary@3.7.1
+        uses: amzn/style-dictionary@3.7.1
       - name: build
         run: style-dictionary build
