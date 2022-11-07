@@ -4,6 +4,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout source code
+        uses: actions/checkout@master
+
+      - name: Set up Node.js
+        uses: actions/setup-node@master
+        with:
+          node-version: 16ㄴ.x
       - name: ls
         run: cd .. && ls -al
       - name: Link dependencies
