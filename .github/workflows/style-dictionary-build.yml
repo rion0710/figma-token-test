@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ls
-        run: ls -al
+        run: cd .. && ls -al
       - name: Link dependencies
         run: yarn
       - name: build
