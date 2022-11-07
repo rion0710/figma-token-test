@@ -10,7 +10,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@master
         with:
-          node-version: 16ㄴ.x
+          node-version: 16.x
       - name: ls
         run: cd .. && ls -al
       - name: Link dependencies
