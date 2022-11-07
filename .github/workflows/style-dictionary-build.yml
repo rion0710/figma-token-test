@@ -1,9 +1,11 @@
 name: style-dictionary-build
 on: push
 jobs:
-  echo:
+  build:
     runs-on: ubuntu-latest
     steps:
+      - name: ls
+        run: ls -al
       - name: Link dependencies
         run: yarn
       - name: build
